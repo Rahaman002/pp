@@ -61,7 +61,6 @@ function Contact() {
         toast.error('Email sent failed'); 
       });
 
-    // Clear form data
     setFormData({
       from_name: '',
       from_email: '',
